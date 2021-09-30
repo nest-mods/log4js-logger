@@ -34,6 +34,14 @@ export const LOG4JS_DEFAULT_CONFIG: Configuration = {
       keepFileExt: true,
       layout: LOG4JS_NO_COLOUR_DEFAULT_LAYOUT,
     },
+    dateFile: {
+      type: 'dateFile',
+      filename: './logs/nest.log',
+      daysToKeep: 365,
+      compress: true,
+      keepFileExt: true,
+      layout: LOG4JS_NO_COLOUR_DEFAULT_LAYOUT,
+    },
   },
   categories: {
     default: {
