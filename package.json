@@ -1,6 +1,6 @@
 {
   "name": "@nest-mods/log4js-logger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Nestjs Logger log4js implementation",
   "keywords": [
     "nestjs",
